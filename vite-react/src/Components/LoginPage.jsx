@@ -32,7 +32,9 @@ export default function LoginPage() {
         <div className="register-button">
             <p>Don't have an account? <a href="registration"><Link to="register"> Register </Link></a></p>
         </div>
-        <br />
+        <div className="quicklogin-button">
+            <p>Lazy to make an account? <a href="quicklogin"><Link to="quicklogin">Quick Login </Link></a></p>
+        </div>
     </div>
     <footer>@2024 All rights reserved to THE BOYZ</footer>
     </div>

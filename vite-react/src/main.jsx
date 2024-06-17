@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
  import LoginPage from './Components/LoginPage'
  import RegisterPage from "./Components/RegisterPage";
  import './index.css'
+import NicknameLogin from "./Components/NicknameLogin";
 
 
  export default function App() {
@@ -12,6 +13,7 @@ import ReactDOM from "react-dom/client";
           <Route path="/">
           <Route index element={<LoginPage />} />
             <Route path="register" element={<RegisterPage />} />
+            <Route path="quicklogin" element={<NicknameLogin />} />
           </Route>
         </Routes>
       </BrowserRouter>
