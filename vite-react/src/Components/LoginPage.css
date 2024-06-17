@@ -80,10 +80,7 @@ button{
 }
 
 .register-button{
-    margin:10px;
-}
-.register-button{
-    margin:10px;
+    padding-left:10px;
 }
 
 .remember-forgot-password label input {
@@ -96,6 +93,21 @@ button{
 }
 
 .register-button p a:hover
+{
+color:#fff;
+text-decoration: underline;
+}
+
+.quicklogin-button{
+    padding-left:10px;
+}
+
+.quicklogin-button p a {
+    color: black;
+    text-decoration: none;
+}
+
+.quicklogin-button p a:hover
 {
 color:#fff;
 text-decoration: underline;
