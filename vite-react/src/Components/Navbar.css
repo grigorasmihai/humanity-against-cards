@@ -1,0 +1,39 @@
+.active {
+    background-color:blue;
+}
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    background-color: lightcoral;
+    position:absolute;
+
+}
+
+nav .title{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+    text-decoration: none;
+}
+
+nav ul {
+    display:flex;
+}
+nav ul li {
+    list-style: none;
+    padding: 15px;
+    font-size: 20px;
+
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}

@@ -2,10 +2,12 @@ import './RegisterPage.css'
 import { MdOutlineMail } from "react-icons/md";
 import { MdOutlinePassword } from "react-icons/md";
 import { FaUserEdit } from "react-icons/fa";
+import Navbar from './Navbar';
 
 export default function RegisterPage() {
     return (
         <div>
+            <Navbar />
     <div className = "registerPagebody">
         <br />
         <h1>Register</h1>
