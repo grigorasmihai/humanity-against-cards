@@ -4,6 +4,7 @@ import ReactDOM from "react-dom/client";
  import RegisterPage from "./Components/RegisterPage";
  import './index.css'
 import NicknameLogin from "./Components/NicknameLogin";
+import MainPage from "./Components/MainPage";
 
 
  export default function App() {
@@ -11,9 +12,11 @@ import NicknameLogin from "./Components/NicknameLogin";
       <BrowserRouter>
         <Routes>
           <Route path="/">
-          <Route index element={<LoginPage />} />
+          <Route index element={<MainPage />} />
             <Route path="register" element={<RegisterPage />} />
             <Route path="quicklogin" element={<NicknameLogin />} />
+            <Route path="login" element={<LoginPage />} />
+            <Route path="mainpage" element={<MainPage />} />
           </Route>
         </Routes>
       </BrowserRouter>

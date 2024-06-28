@@ -2,11 +2,12 @@ import './LoginPage.css'
 import { FaUserEdit } from "react-icons/fa";
 import { MdOutlinePassword } from "react-icons/md";
 import {Link} from "react-router-dom";
-
+import Navbar from './Navbar';
 
 export default function LoginPage() {
     return (
         <div>
+            <Navbar />
     <div className = "loginPageBody">
         <br />
         <h1>Login</h1>
@@ -30,10 +31,10 @@ export default function LoginPage() {
         </div>
         <br />
         <div className="register-button">
-            <p>Don't have an account? <a href="registration"><Link to="register"> Register </Link></a></p>
+            <p>Don't have an account? <a href="registration"><Link to="/register"> Register </Link></a></p>
         </div>
         <div className="quicklogin-button">
-            <p>Lazy to make an account? <a href="quicklogin"><Link to="quicklogin">Quick Login </Link></a></p>
+            <p>Lazy to make an account? <a href="quicklogin"><Link to="/quicklogin">Quick Login </Link></a></p>
         </div>
     </div>
     <footer>@2024 All rights reserved to THE BOYZ</footer>
